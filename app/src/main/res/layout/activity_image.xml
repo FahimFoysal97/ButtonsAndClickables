@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    tools:context=".ImageActivity"
+    android:weightSum="11">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/image_activity_example_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/image_activity_example_text1_margin_bottom_size"
+        android:background="@drawable/shape_example"
+        android:padding="@dimen/image_activity_example_text1_padding_size"
+        android:text="@string/image_activity"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/image_activity_example_text1_size"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/image_activity_example_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/image_activity_example_text1_margin_bottom_size"
+        android:background="@drawable/state_list_example_layout"
+        android:text="@string/image_activity"
+        android:textColor="@color/black"
+        android:textSize="@dimen/image_activity_example_text1_size" />
+
+    <ImageView
+        android:id="@+id/image_activity_example_imageview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/example_image_for_testing"
+        android:paddingVertical="4dp"
+        android:src="@drawable/mountains_patch" />
+
+    <ImageView
+        android:id="@+id/image_activity_example_imageview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/example_image_for_testing"
+        android:src="@drawable/layer_example" />
+
+    <ImageView
+        android:id="@+id/image_activity_example_imageview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/example_image_for_testing"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>

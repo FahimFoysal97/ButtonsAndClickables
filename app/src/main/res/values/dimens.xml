@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_activity_example_text1_size">18sp</dimen>
+    <dimen name="image_activity_example_text1_padding_size">4dp</dimen>
+    <dimen name="image_activity_example_text1_margin_bottom_size">4dp</dimen>
+</resources>
